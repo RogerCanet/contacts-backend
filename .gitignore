@@ -1,6 +1,9 @@
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
+# Include Maven wrapper properties file
+!.mvn/wrapper/maven-wrapper.properties
+
 !**/src/main/**/target/
 !**/src/test/**/target/
 
