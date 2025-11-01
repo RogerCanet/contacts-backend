@@ -13,7 +13,11 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")
+                        .allowedOrigins(
+                        "https://rogercanet.github.io",
+                        "https://rogercanet.github.io/contacts-frontend",
+                        "https://rogercanet.github.io/contacts-frontend/edit.html"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
