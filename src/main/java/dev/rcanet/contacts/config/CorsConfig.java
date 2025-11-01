@@ -14,9 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                        "https://rogercanet.github.io",
-                        "https://rogercanet.github.io/contacts-frontend",
-                        "https://rogercanet.github.io/contacts-frontend/edit.html"
+                        "https://rogercanet.github.io"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
